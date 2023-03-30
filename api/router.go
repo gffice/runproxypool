@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ssrlive/proxypool/log"
+	"github.com/gffice/runproxypool/log"
 	"golang.org/x/exp/slices"
 
 	"github.com/gin-contrib/cache"
@@ -18,8 +18,8 @@ import (
 	"github.com/gin-gonic/gin"
 	_ "github.com/heroku/x/hmetrics/onload"
 	"github.com/ssrlive/proxypool/config"
-	appcache "github.com/ssrlive/proxypool/internal/cache"
-	"github.com/ssrlive/proxypool/pkg/provider"
+	appcache "github.com/gffice/runproxypool/internal/cache"
+	"github.com/gffice/runproxypool/pkg/provider"
 )
 
 const version = "v0.7.12"
