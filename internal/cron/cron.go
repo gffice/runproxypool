@@ -3,14 +3,14 @@ package cron
 import (
 	"runtime"
 
-	"github.com/ssrlive/proxypool/config"
-	"github.com/ssrlive/proxypool/internal/cache"
-	"github.com/ssrlive/proxypool/log"
-	"github.com/ssrlive/proxypool/pkg/healthcheck"
-	"github.com/ssrlive/proxypool/pkg/provider"
+	"github.com/gffice/runproxypool/config"
+	"github.com/gffice/runproxypool/internal/cache"
+	"github.com/gffice/runproxypool/log"
+	"github.com/gffice/runproxypool/pkg/healthcheck"
+	"github.com/gffice/runproxypool/pkg/provider"
 
 	"github.com/jasonlvhit/gocron"
-	"github.com/ssrlive/proxypool/internal/app"
+	"github.com/gffice/runproxypool/internal/app"
 )
 
 func Cron() {
