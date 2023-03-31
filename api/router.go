@@ -17,7 +17,7 @@ import (
 	"github.com/gin-contrib/cache/persistence"
 	"github.com/gin-gonic/gin"
 	_ "github.com/heroku/x/hmetrics/onload"
-	"github.com/ssrlive/proxypool/config"
+	"github.com/gffice/runproxypool/config"
 	appcache "github.com/gffice/runproxypool/internal/cache"
 	"github.com/gffice/runproxypool/pkg/provider"
 )
