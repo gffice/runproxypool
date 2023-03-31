@@ -3,8 +3,8 @@ package database
 import (
 	"time"
 
-	"github.com/ssrlive/proxypool/log"
-	"github.com/ssrlive/proxypool/pkg/proxy"
+	"github.com/gffice/runproxypool/log"
+	"github.com/gffice/runproxypool/pkg/proxy"
 	"gorm.io/gorm"
 )
 
