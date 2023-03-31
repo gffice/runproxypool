@@ -14,8 +14,8 @@ import (
 	"time"
 
 	"github.com/antchfx/htmlquery"
-	"github.com/ssrlive/proxypool/log"
-	"github.com/ssrlive/proxypool/pkg/proxy"
+	"github.com/gffice/runproxypool/log"
+	"github.com/gffice/runproxypool/pkg/proxy"
 
 	"github.com/ivpusic/grpool"
 
