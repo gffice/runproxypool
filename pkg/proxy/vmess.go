@@ -12,7 +12,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ssrlive/proxypool/pkg/tool"
+	"github.com/gffice/runproxypool/pkg/tool"
 )
 
 var (
