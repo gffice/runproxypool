@@ -10,10 +10,10 @@ import (
 	"runtime/debug"
 	"strings"
 
-	"github.com/ssrlive/proxypool/log"
+	"github.com/gffice/runproxypool/log"
 
 	"github.com/ghodss/yaml"
-	"github.com/ssrlive/proxypool/pkg/tool"
+	"github.com/gffice/runproxypool/pkg/tool"
 )
 
 var configFilePath = "config.yaml"
